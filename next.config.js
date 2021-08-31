@@ -3,7 +3,6 @@ const path = require('path');
 const BASE_PATH = process.env.BASE_PATH || '';
 
 module.exports = {
-  exportTrailingSlash: true,
   trailingSlash: true,
   target: 'serverless',
   basePath: BASE_PATH,
