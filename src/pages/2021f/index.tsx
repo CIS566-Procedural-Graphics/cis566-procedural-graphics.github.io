@@ -6,7 +6,7 @@ export const courseSeason = 'Fall 2021';
 export const brand = `${courseCode} ${courseSeason}`;
 export const courseTitle = `${courseCode} ${courseName} ${courseSeason}`;
 
-const Page: React.FunctionComponent = () => {
+export const Page: React.FunctionComponent = () => {
   return (
     <Layout basePath="/2021f" brand={brand} title={courseTitle}>
       <h1>

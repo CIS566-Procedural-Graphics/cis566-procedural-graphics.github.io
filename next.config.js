@@ -26,13 +26,4 @@ module.exports = {
 
     return config;
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: '/2021f',
-        permanent: true,
-      },
-    ]
-  },
 }
