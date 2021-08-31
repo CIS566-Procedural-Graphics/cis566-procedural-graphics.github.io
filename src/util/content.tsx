@@ -40,7 +40,9 @@ export async function getMdPages(
   contentPath: string
 ): Promise<PagePropsWithSlug[]> {
   const dirents = await fs.readdir(contentPath, { withFileTypes: true });
-  const files = dirents.filter((dirent) => dirent.isFile());
+  const files = dirents.filter(
+    (dirent) => dirent.isFile() && dirent.name.endsWith('.md')
+  );
 
   const mdPages = await Promise.all(
     files.map(async (file) => {
