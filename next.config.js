@@ -21,9 +21,6 @@ module.exports = {
       },
     });
 
-    config.node.__filename = true;
-    config.node.__dirname = true;
-
     return config;
   },
 }

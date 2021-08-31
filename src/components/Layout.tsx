@@ -40,9 +40,7 @@ const Layout: React.FunctionComponent<{
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Container>
-        <main>{props.children}</main>
-      </Container>
+      <Container>{props.children}</Container>
     </>
   );
 };
