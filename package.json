@@ -1,0 +1,41 @@
+{
+  "name": "cis566-procedural-graphics",
+  "version": "0.1.0",
+  "description": "Website for the CIS 566 Procedural Graphics course",
+  "license": "BSD-3-Clause",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CIS566-Procedural-Graphics/cis566-procedural-graphics.github.io.git"
+  },
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx src/",
+    "start": "next dev",
+    "build": "next build",
+    "serve": "next start",
+    "export": "next export"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.0",
+    "next": "^11.1.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.8",
+    "@types/react": "^17.0.19",
+    "@types/react-bootstrap": "^0.32.26",
+    "@types/react-dom": "^17.0.9",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.1",
+    "file-loader": "^6.2.0",
+    "prettier": "^2.3.2",
+    "sass": "^1.38.2",
+    "typescript": "^4.4.2"
+  }
+}
