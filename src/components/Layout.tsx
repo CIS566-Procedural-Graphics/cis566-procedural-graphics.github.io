@@ -22,13 +22,20 @@ const Layout: React.FunctionComponent<{
           <Navbar.Toggle aria-controls="navbar-nav-collapse" />
           <Navbar.Collapse id="navbar-nav-collapse">
             <Nav>
-              <Link href={`${props.basePath}/syllabus`} passHref>
-                <Nav.Link>Syllabus</Nav.Link>
+              <Link href={`${props.basePath}/logistics`} passHref>
+                <Nav.Link>Logistics</Nav.Link>
               </Link>
-              <Link href={`${props.basePath}/schedule`} passHref>
-                <Nav.Link>Schedule</Nav.Link>
+              <Link href={`${props.basePath}/content`} passHref>
+                <Nav.Link>Content</Nav.Link>
               </Link>
               {props.navLinks.map((section) => {
+                section.pages.sort((a, b) => {
+                  const ra = a.frontmatter['rank'];
+                  const rb = b.frontmatter['rank'];
+                  const rav = ra ?? 0;
+                  const rbv = rb ?? 0;
+                  return rav - rbv;
+                });
                 return (
                   <NavDropdown
                     title={section.title}
@@ -36,6 +43,19 @@ const Layout: React.FunctionComponent<{
                     id={`${section.title}-dropdown`}
                   >
                     {section.pages.map((page) => {
+                      if (page.frontmatter['type'] === 'link') {
+                        return (
+                          <Link
+                            key={page.frontmatter['title']}
+                            href={page.frontmatter['href'] as string}
+                            passHref
+                          >
+                            <NavDropdown.Item>
+                              {page.frontmatter['title']}
+                            </NavDropdown.Item>
+                          </Link>
+                        );
+                      }
                       return (
                         <Link
                           key={page.slug}

@@ -39,17 +39,32 @@ export const Page: React.FunctionComponent<{ navLinks: NavLinks }> = (
           {courseCode} {courseName}
         </h1>
         <h2>{courseSeason} - University of Pennsylvania | Rachel Hwang</h2>
-        <h2>Course Description</h2>
+        <img
+          width="800"
+          style={{ maxWidth: '100%' }}
+          src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/95542c19563823.562dc86805d22.png"
+          alt="Pixels on Old Masters, raluca sturzu"
+        />
         <p>
-          Sprawling cities, dense vegetation, infinite worlds — procedural
-          graphics empower technical artists to quickly create complex digital
-          assets that would otherwise be unfeasible. This course is intended to
-          introduce the algorithmic foundations of procedural modeling,
-          texturing and animation techniques, and to offer hands-on experience
-          designing and implementing “visual recipes” in original graphics
-          projects by applying these methods. Students should have a strong
-          interest in both the creative and technical aspects of computer
-          graphics, as well as a solid programming background.
+          (Image: raluca sturzu,{' '}
+          <a href="https://www.behance.net/gallery/19563823/Pixels-on-Old-Masters">
+            Pixels On Old Masters
+          </a>
+          )
+        </p>
+        <p>What do a rose and a differential equation have in common?</p>
+        <p>
+          It’s questions like these that allow us to approach artistic problems
+          with technical mindsets, or vice versa. Better yet, it helps us see
+          that traditional discipline boundaries don’t need to limit us.
+        </p>
+        <p>
+          In this course, be an engineer and an artist as we learn to marry
+          computational tools with design thinking to create complex visuals.
+          We’ll learn how to approach artistic puzzles by breaking them down
+          into components and generative algorithms. We’ll build up an arsenal
+          of technologies and techniques for creating unique digital art, and
+          hopefully have plenty of fun along the way. :)
         </p>
 
         <h2>Course Goals</h2>

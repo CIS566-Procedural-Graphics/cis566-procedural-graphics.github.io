@@ -19,7 +19,7 @@ export function makeContentPage(base: string): {
       params: {
         ...f.frontmatter,
         slug: f.slug,
-      },
+      } as PageParams,
     }));
 
     return {
