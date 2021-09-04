@@ -1,2 +1,4 @@
-import { Page } from './2021f';
+import { Page, getStaticProps } from './2021f';
+
+export { getStaticProps };
 export default Page;

@@ -1,15 +1,17 @@
-import { PageProps } from '../../../util/content';
-import { makeContentPage } from '../../../util/contentPage';
 import { Layout } from '../index';
+import {
+  makeContentPageWithNavLinks,
+  PagePropsWithNavLinks,
+} from '../../../util/nav';
 
-const { getStaticPaths, getStaticProps } = makeContentPage(
+const { getStaticPaths, getStaticProps } = makeContentPageWithNavLinks(
   'content/2021f/assignments'
 );
 export { getStaticPaths, getStaticProps };
 
-const Page: React.FunctionComponent<PageProps> = (props) => {
+const Page: React.FunctionComponent<PagePropsWithNavLinks> = (props) => {
   return (
-    <Layout title={props.frontmatter.title}>
+    <Layout title={props.frontmatter.title} navLinks={props.navLinks}>
       <main
         dangerouslySetInnerHTML={{
           __html: props.content,

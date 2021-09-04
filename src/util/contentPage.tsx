@@ -4,7 +4,7 @@ import path from 'path';
 import { getMdPage, getMdPages, PageProps, PagePropsWithSlug } from './content';
 import { assert } from './assert';
 
-type PageParams = PagePropsWithSlug['frontmatter'] & {
+export type PageParams = PagePropsWithSlug['frontmatter'] & {
   slug: string;
 };
 

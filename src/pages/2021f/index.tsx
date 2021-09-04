@@ -1,4 +1,6 @@
+import { GetStaticProps } from 'next';
 import BaseLayout from '../../components/Layout';
+import { getNavLinks, NavLinks } from '../../util/nav';
 
 export const courseCode = 'CIS 566';
 export const courseName = 'Procedural Graphics';
@@ -8,21 +10,30 @@ export const courseTitle = `${courseCode} ${courseName} ${courseSeason}`;
 
 export const Layout: React.FunctionComponent<{
   title?: string;
+  navLinks: NavLinks;
 }> = (props) => {
   return (
     <BaseLayout
       basePath="/2021f"
       brand={brand}
-      title={props.title ? `${props.title} ${courseTitle}` : courseTitle}
+      title={props.title ? `${props.title} | ${courseTitle}` : courseTitle}
+      navLinks={props.navLinks}
     >
       {props.children}
     </BaseLayout>
   );
 };
 
-export const Page: React.FunctionComponent = () => {
+export const getStaticProps: GetStaticProps<{ navLinks: NavLinks }> =
+  async () => {
+    return getNavLinks().then((navLinks) => ({ props: { navLinks } }));
+  };
+
+export const Page: React.FunctionComponent<{ navLinks: NavLinks }> = (
+  props
+) => {
   return (
-    <Layout>
+    <Layout navLinks={props.navLinks}>
       <main>
         <h1>
           {courseCode} {courseName}

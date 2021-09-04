@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { NavLinks } from '../util/nav';
 
 const Layout: React.FunctionComponent<{
   basePath: string;
   brand: string;
   title: string;
+  navLinks: NavLinks;
 }> = (props) => {
   return (
     <>
@@ -26,16 +28,29 @@ const Layout: React.FunctionComponent<{
               <Link href={`${props.basePath}/schedule`} passHref>
                 <Nav.Link>Schedule</Nav.Link>
               </Link>
-              <NavDropdown title="Assignments" id="assignments-dropdown">
-                {/* <Link href={`${props.basePath}/assignments/proj1-noise`} passHref>
-                  <NavDropdown.Item >Project 1: Noise</NavDropdown.Item>
-                </Link> */}
-              </NavDropdown>
-              <NavDropdown title="Resources" id="resources-dropdown">
-                {/* <Link href={`${props.basePath}/resources/foo`} passHref>
-                  <NavDropdown.Item >Foo</NavDropdown.Item>
-                </Link> */}
-              </NavDropdown>
+              {props.navLinks.map((section) => {
+                return (
+                  <NavDropdown
+                    title={section.title}
+                    key={section.title}
+                    id={`${section.title}-dropdown`}
+                  >
+                    {section.pages.map((page) => {
+                      return (
+                        <Link
+                          key={page.slug}
+                          href={`${props.basePath}/${section.dir}/${page.slug}`}
+                          passHref
+                        >
+                          <NavDropdown.Item>
+                            {page.frontmatter['title']}
+                          </NavDropdown.Item>
+                        </Link>
+                      );
+                    })}
+                  </NavDropdown>
+                );
+              })}
             </Nav>
           </Navbar.Collapse>
         </Container>
