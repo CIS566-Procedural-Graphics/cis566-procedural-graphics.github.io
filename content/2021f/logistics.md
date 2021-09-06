@@ -37,10 +37,12 @@ All lectures and labs and office hours will also be virtual. Join at <a id="zoom
 - Week 14: Final Project
 
 <script>
-  document.getElementById(`rachel-email`).innerHTML = `rah1` + `@` + `uchicago.edu`;
-  document.getElementById(`adam-email`).innerHTML = `amally` + `@` + `seas.upenn.edu`;
+  document.addEventListener(`DOMContentLoaded`, function() {
+    document.getElementById(`rachel-email`).innerHTML = `rah1` + `@` + `uchicago.edu`;
+    document.getElementById(`adam-email`).innerHTML = `amally` + `@` + `seas.upenn.edu`;
 
-  const zoomLink = `https://` + `upenn.zoom.us` + `/j/95081002092`;
-  document.getElementById(`zoom-link`).innerHTML = zoomLink;
-  document.getElementById(`zoom-link`).href = zoomLink;
+    const zoomLink = `https://` + `upenn.zoom.us` + `/j/95081002092`;
+    document.getElementById(`zoom-link`).innerHTML = zoomLink;
+    document.getElementById(`zoom-link`).href = zoomLink;
+  });
 </script>
