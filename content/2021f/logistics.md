@@ -22,7 +22,7 @@ All lectures and labs and office hours will also be virtual. Join at <a id="zoom
 (Subject to change)
 
 - Week 1: [What is Proceduralism?](/What%20is%20proceduralism_.pdf)
-- Week 2: Noise
+- Week 2: [Noise](/noise-2021.pdf)
 - Week 3: Toolbox methods
 - Week 4: Procedural textures
 - Week 5: L-systems

@@ -6,6 +6,7 @@ title: Content
 
 - [Intro](/intro%202021.pdf)
 - [What is Proceduralism?](/What%20is%20proceduralism_.pdf)
+- [Noise Functions](/noise-2021.pdf)
 
 ## Resources
 
