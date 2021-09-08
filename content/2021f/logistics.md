@@ -8,15 +8,15 @@ Class is Monday and Wednesdays 7-8:30 pm.
 
 Mondays are lectures. Wednesdays are labs. Please attend class in person and bring laptops to lab section. Contact instructors if you don’t have a laptop to bring
 
-All lectures and labs and office hours will also be virtual. Join at <a id="zoom-link"></a>.
+All lectures and labs and office hours will also be virtual. Join at [https://upenn.zoom.us/j/95081002092](https://upenn.zoom.us/j/95081002092).
 
 ## Office Hours
 - Wednesday 4-5 pm
 - Friday 11-12 am
 
 ## Contact
-- Rachel Hwang (<span id="rachel-email"></span>)
-- Adam Mally (<span id="adam-email"></span>)
+- Rachel Hwang (rah1@uchicago.edu)
+- Adam Mally (amally@seas.upenn.edu)
 
 ## Schedule
 (Subject to change)
@@ -36,13 +36,3 @@ All lectures and labs and office hours will also be virtual. Join at <a id="zoom
 - Week 13: Special Topics
 - Week 14: Final Project
 
-<script>
-  document.addEventListener(`DOMContentLoaded`, function() {
-    document.getElementById(`rachel-email`).innerHTML = `rah1` + `@` + `uchicago.edu`;
-    document.getElementById(`adam-email`).innerHTML = `amally` + `@` + `seas.upenn.edu`;
-
-    const zoomLink = `https://` + `upenn.zoom.us` + `/j/95081002092`;
-    document.getElementById(`zoom-link`).innerHTML = zoomLink;
-    document.getElementById(`zoom-link`).href = zoomLink;
-  });
-</script>
