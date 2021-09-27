@@ -9,6 +9,7 @@ title: Content
 - [Noise Functions](/noise-2021.pdf)
 - [Toolbox Functions](/toolbox_functions.pdf)
 - [Color](/color.pdf)
+- [Implicit Surfaces](/implict_surfaces.pdf)
 
 ## Resources
 
