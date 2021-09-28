@@ -31,12 +31,12 @@ Video call link: https://meet.google.com/vvo-mpbt-bcg
 - Week 2: [Noise](/noise-2021.pdf)
 - Week 3: [Toolbox methods](/toolbox_functions.pdf)
 - Week 4: [Color](/color.pdf)
-- Week 5: L-systems
-- Week 6: L-systems extended
-- Week 7: Houdini
-- Week 8: Procedural Levels
-- Week 9: Procedural Narrative
-- Week 10: Procedural Characters
+- Week 5: [Implicit Surfaces](/implicit_surfaces.pdf)
+- Week 6: Procedural Characters
+- Week 7: L-systems
+- Week 8: Shape Grammars
+- Week 9: Houdini
+- Week 10: Procedural Levels
 - Week 11: Special topics
 - Week 12: Special Topics
 - Week 13: Special Topics
