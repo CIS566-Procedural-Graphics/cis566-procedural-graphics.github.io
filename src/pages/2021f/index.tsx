@@ -38,7 +38,10 @@ export const Page: React.FunctionComponent<{ navLinks: NavLinks }> = (
         <h1>
           {courseCode} {courseName}
         </h1>
-        <h2>⏎··········{courseSeason}·-·University·of·Pennsylvania·|·Rachel·Hwang·and·Adam⏎··········Mally⏎········</h2>
+        <h2>
+          {courseSeason} - University of Pennsylvania | Rachel Hwang and Adam
+          Mally
+        </h2>
         <img
           width="800"
           style={{ maxWidth: '100%' }}
