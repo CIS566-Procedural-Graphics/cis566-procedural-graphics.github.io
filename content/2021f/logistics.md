@@ -11,7 +11,7 @@ Mondays are lectures. Wednesdays are labs. Please attend class in person and bri
 All lectures and labs and office hours will also be virtual. Join at [https://upenn.zoom.us/j/95081002092](https://upenn.zoom.us/j/95081002092).
 
 ## Office Hours
-- Monday: 10-11 am (Hannah), 9-10 pm (Gary), 
+- Monday: 1-2 pm (Hannah), 9-10 pm (Gary), 
 - Tuesday: 3-6 (Ruth in the SIGLAB)
 - Wednesday: 330-5 (Nathan in the SIGLAB), 4-5 (Adam) 
 - Thursday: 2-330 (Nathan in the SIGLAB)
