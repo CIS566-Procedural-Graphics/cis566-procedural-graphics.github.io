@@ -10,6 +10,7 @@ title: Content
 - [Toolbox Functions](/toolbox_functions.pdf)
 - [Color](/color.pdf)
 - [Implicit Surfaces](/implicit_surfaces.pdf)
+- [SDF Tips and Tricks](/demo_tips.pdf)
 
 ## Resources
 
