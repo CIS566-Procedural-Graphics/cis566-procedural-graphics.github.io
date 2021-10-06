@@ -32,7 +32,7 @@ Video call link: https://meet.google.com/vvo-mpbt-bcg
 - Week 3: [Toolbox methods](/toolbox_functions.pdf)
 - Week 4: [Color](/color.pdf)
 - Week 5: [Implicit Surfaces](/implicit_surfaces.pdf)
-- Week 6: Procedural Characters
+- Week 6: [SDF Demo Tips and Tricks](/demo_tips.pdf)
 - Week 7: L-systems
 - Week 8: Shape Grammars
 - Week 9: Houdini
