@@ -11,6 +11,7 @@ title: Content
 - [Color](/color.pdf)
 - [Implicit Surfaces](/implicit_surfaces.pdf)
 - [SDF Tips and Tricks](/demo_tips.pdf)
+- [L-Systems](/lsystems.pdf)
 
 ## Resources
 
