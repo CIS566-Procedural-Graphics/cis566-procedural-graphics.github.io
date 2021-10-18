@@ -12,6 +12,7 @@ title: Content
 - [Implicit Surfaces](/implicit_surfaces.pdf)
 - [SDF Tips and Tricks](/demo_tips.pdf)
 - [L-Systems](/lsystems.pdf)
+- [Shape Grammars](/shape_grammars.pdf)
 
 ## Resources
 
