@@ -34,7 +34,7 @@ Video call link: https://meet.google.com/vvo-mpbt-bcg
 - Week 5: [Implicit Surfaces](/implicit_surfaces.pdf)
 - Week 6: [SDF Demo Tips and Tricks](/demo_tips.pdf)
 - Week 7: [L-systems](/lsystems.pdf)
-- Week 8: [Shape Grammars](/shape_grammars.pdf)
+- Week 8: [Shape Grammars](/shape_grammar.pdf)
 - Week 9: Houdini
 - Week 10: Procedural Levels
 - Week 11: Special topics
