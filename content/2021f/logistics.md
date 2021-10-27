@@ -16,7 +16,7 @@ All lectures and labs and office hours will also be virtual. Join at [https://up
 - Friday: 10-12 am (Rachel)
 
 All office hours will be available remotely here:
-Video call link: https://meet.google.com/vvo-mpbt-bcg
+Video call link: https://upenn.zoom.us/j/97039057746
 
 ## Contact
 - Rachel Hwang (rah1@uchicago.edu)
