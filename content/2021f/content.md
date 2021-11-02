@@ -13,6 +13,7 @@ title: Content
 - [SDF Tips and Tricks](/demo_tips.pdf)
 - [L-Systems](/lsystems.pdf)
 - [Shape Grammars](/shape_grammar.pdf)
+- [Level Generation](/level_generation.pdf)
 
 ## Resources
 
