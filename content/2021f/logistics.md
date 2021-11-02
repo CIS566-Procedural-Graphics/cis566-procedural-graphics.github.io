@@ -34,7 +34,7 @@ Video call link: https://upenn.zoom.us/j/97039057746
 - Week 7: [L-systems](/lsystems.pdf)
 - Week 8: [Shape Grammars](/shape_grammar.pdf)
 - Week 9: Houdini
-- Week 10: Procedural Levels
+- Week 10: [Procedural Levels](level_generation.pdf)
 - Week 11: Special topics
 - Week 12: Special Topics
 - Week 13: Special Topics
